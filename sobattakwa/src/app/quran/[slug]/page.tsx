@@ -1,5 +1,5 @@
 import DetailSurahList from "@/components/Surah/DetailSurahList";
-import { UrlSurah } from "@/lib/utils/fetcher";
+import { UrlSurah } from "@/lib/fetcher";
 
 async function fetchDetail(slug: string): Promise<Surah | null> {
   try {

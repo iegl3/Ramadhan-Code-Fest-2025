@@ -1,5 +1,5 @@
 import DoaList from "@/components/Doa/DoaList";
-import { getDoa } from "@/lib/utils/fetcher";
+import { getDoa } from "@/lib/fetcher";
 // Main component
 export default async function Doa() {
   // Fetch Doa data with proper type

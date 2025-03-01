@@ -1,7 +1,6 @@
-export const UrlJadwalSholat =
-  "https://api.aladhan.com/v1/timingsByAddress?address=";
-export const UrlDoa = "https://doa-doa-api-ahmadramadhan.fly.dev/api/";
-export const UrlSurah = "https://quran-api-id.vercel.app/surahs/";
+export const UrlJadwalSholat = process.env.NEXT_PUBLIC_JADWAL_SHOLAT;
+export const UrlDoa = process.env.NEXT_PUBLIC_DOA;
+export const UrlSurah = process.env.NEXT_PUBLIC_SURAH;
 
 //fetching Surah
 export async function getSurah(): Promise<typeSurahList[] | null> {

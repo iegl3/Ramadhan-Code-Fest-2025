@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState, useMemo } from "react";
-import { UrlJadwalSholat } from "@/lib/utils/fetcher";
+import { UrlJadwalSholat } from "@/lib/fetcher";
 import { OptionCities } from "@/lib/optionCities";
 import LoadingIslami from "@/components/Loading";
 import { Check, ChevronsUpDown } from "lucide-react";

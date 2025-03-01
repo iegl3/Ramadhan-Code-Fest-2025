@@ -1,5 +1,5 @@
 import SurahList from "@/components/Surah/SurahList";
-import { getSurah } from "@/lib/utils/fetcher";
+import { getSurah } from "@/lib/fetcher";
 
 export default async function Surah() {
   const dataSurah: typeSurahList[] | null = await getSurah();
